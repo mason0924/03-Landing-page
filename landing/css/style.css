@@ -1,0 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-foster {
+  display: inline-block;
+  background-color: #dd1e7f;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: left;
+}
+/* Custom design below! */
+.banner {
+  /* background-image: url('https://einfachtierisch.de/media/cache/resolve/article_main_image_tablet/cms/2016/02/welsh-corgi-pembroke-laeuft-ueber-wiese_dezi_shutterstock_330904421.jpg?464838'); */
+  /* transform: scaleX(-1); */
+  background-size: cover;
+  background-position: center;
+  padding:  86px 78px;
+  width: 105%;
+  color: white;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.card img {
+  height: 37%;
+  width: 50%;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+}
